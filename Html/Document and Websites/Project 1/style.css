@@ -1,0 +1,28 @@
+h1 {
+    color:rgb(213, 250, 4);
+    font-size: 40px;
+    border: solid;
+    border-color: coral;
+    border-radius: 60px;
+}
+
+p {
+    color:goldenrod;
+    font-size: 30px;
+    font-family: "arial";
+}
+
+strong {
+    font-weight: 900;
+    text-decoration: dotted;
+    border: solid;
+    border-color: ghostwhite;
+}
+
+a {
+    color: azure;
+    text-decoration: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
