@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: flex;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menus ul li {
+    display: flex;
+    
+    list-style: none;
+    align-items: center;
+
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    display: flex;
+    padding: 50px;
+    margin-left: 5px;
+}
+
+.icon{
+    margin-top: 25px;
+    display: flex;
+    height: 100px;
+}
+
+p, span {
+    font-weight: bold;
+    text-align: center;
+}
+
+.d1>p{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.install {
+    margin: auto;
+    width: 250px;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: sans-serif;
+    display: grid;
+    border-radius: 10px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.button{
+    margin-left: 50px;
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.para {
+    color: rgb(255, 255, 255);
+}
+
+.rand-text, .rand-head{
+    font-size: 8px;
+    padding: 5px;
+    text-align: center;
+}
+
+.rand-head {
+    margin-top: 5px;
+}
+
+.parent>div{
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+
+.parent {
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 300px){
+    .install {
+        grid-template-columns: 1fr;
+        margin: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}

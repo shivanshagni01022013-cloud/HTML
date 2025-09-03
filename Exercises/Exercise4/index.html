@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+        :root {
+            --primary-color: rgb(17, 255, 0);
+            --secondary-color: rgb(58, 246, 139);
+            --background-color: rgb(208, 249, 192);
+            --text-color: rgb(255, 255, 255);
+            --hover-background: rgb(196, 251, 194);
+            --text-hover: rgb(81, 235, 96);
+        }
+
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body {
+            background-color: var(--background-color);
+        }
+
+        ul li{
+            display: inline;
+            padding: 20px;
+            list-style: none;
+            font-family: monospace;
+        }
+        
+        nav{
+            padding: 5px;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            font-weight: bolder;
+            font-size: 20px;
+            text-align: right;
+        }
+
+        a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--text-hover);
+            background-color: var(--hover-background);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact us</a></li>
+                <li><a href="/">More Info</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
