@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            width: 45px;
+            border: 2px solid black; 
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Given 5 boxes, Assign a random color and a random background to each box using DOM concepts
+     -->
+     <div class="container">
+        <div class="box" id = "1">Box</div>
+        <div class="box" id = "2">Box</div>
+        <div class="box" id = "3">Box</div>
+        <div class="box" id = "4">Box</div>
+        <div class="box" id = "5">Box</div>
+     </div>
+
+     <script>
+        let rand = Math.random()
+        
+        function id1(){
+            document.getElementById(1).style.backgroundColor = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+            document.getElementById(1).style.color = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+        }
+
+        function id2(){
+            document.getElementById(2).style.backgroundColor = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+            document.getElementById(2).style.color = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+        }
+
+        function id3(){
+            document.getElementById(3).style.backgroundColor = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+            document.getElementById(3).style.color = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+        }
+
+        function id4(){
+            document.getElementById(4).style.backgroundColor = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+            document.getElementById(4).style.color = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+        }
+
+        function id5(){
+            document.getElementById(5).style.backgroundColor = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+            document.getElementById(5).style.color = `rgb(
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+                ${Math.floor(Math.random()*256)}
+            )`
+        }
+
+        //Function output
+        id1()
+        id2()
+        id3()
+        id4()
+        id5()
+        
+     </script>
+</body>
+</html>
